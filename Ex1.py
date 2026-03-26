@@ -13,5 +13,5 @@ def count_lines(filepath: pathlib.Path) -> int | None:
 
 
 
-
-
+nr_lines = count_lines(pathlib.Path("sample_data/scores.txt"))
+print(f"Number of lines: {nr_lines}")
