@@ -1,6 +1,4 @@
 import pathlib  # yes, for real lol
-import typing
-
 
 def count_lines(filepath: pathlib.Path) -> int | None:
     line_cnt = 0
@@ -15,4 +13,5 @@ def count_lines(filepath: pathlib.Path) -> int | None:
 
 
 
-def find_occurences(needle: str, file: typing.TextIO)
+
+
